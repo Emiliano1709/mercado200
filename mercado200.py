@@ -19,10 +19,10 @@ from openai import OpenAI
 # --------------------------- Seteadores ----------------------------------------------
 st.set_page_config(page_title="Estudio de mercado", layout="wide")
 
-dotenv_path = find_dotenv()
-load_dotenv(dotenv_path, override=True)
-client = OpenAI(api_key = os.getenv("OPENAI_API_KEY"))
-#client = OpenAI(api_key = st.secrets["OPENAI_API_KEY"])
+#dotenv_path = find_dotenv()
+#load_dotenv(dotenv_path, override=True)
+#client = OpenAI(api_key = os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key = st.secrets["OPENAI_API_KEY"])
 
 st.title("Estudio de mercado")
 
