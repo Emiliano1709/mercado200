@@ -41,3 +41,7 @@ mercado200/
     +-- prompts.py
 
 NOTA: La estructura y funcionamiento serán ampliadas en la documentación anexa a las carpetas en  proximas versiones.
+
+= V.2.2.3 =
+    Barra lateral
+Al diseño de la intefaz del usuario se le hizo un cambio sutil, pero importante al colocar las instrucciones, la caja de entrada de texto y el botón para guardar la información en una barra lateral desplegable, con la finalidad de que sea más cómo visualmente al usuario el despliegue de la información

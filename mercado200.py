@@ -22,10 +22,10 @@ from utils.prompts import construir_prompt
 # --------------------------- Seteadores ----------------------------------------------
 st.set_page_config(page_title="Estudio de mercado", layout="wide")
 
-#dotenv_path = find_dotenv()
-#load_dotenv(dotenv_path, override=True)
-#client = OpenAI(api_key = os.getenv("OPENAI_API_KEY"))
-client = OpenAI(api_key = st.secrets["OPENAI_API_KEY"])
+dotenv_path = find_dotenv()
+load_dotenv(dotenv_path, override=True)
+client = OpenAI(api_key = os.getenv("OPENAI_API_KEY"))
+#client = OpenAI(api_key = st.secrets["OPENAI_API_KEY"])
 
 st.title("Estudio de mercado")
 
@@ -61,11 +61,14 @@ def instrucciones():
 
 # -------------------------------- Interfaz (MAIN)-------------------------------------
 
-st.markdown("## ¡Bienvenido!")
-instrucciones()
-tema = st.text_input("¿De qué tema buscas información?")
+with st.sidebar:
+    st.markdown("## ¡Bienvenido!")
+    instrucciones()
+    tema = st.text_input("¿De qué tema buscas información?")
+    inv = st.button("Investigar")
 
-if st.button("investigar"):
+    
+if inv:
     if tema:
         with st.spinner("investigando..."):
             st.markdown("### Vista previa de la información")
