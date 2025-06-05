@@ -24,3 +24,4 @@ def construir_prompt(ruta_archivo: str, datos: dict) -> str:
     return prompt_final
     #Esta función es la que hace magia en el archivo principal
     
+    

@@ -1,9 +1,10 @@
 ###################################################
 #              Generador de leads                 #
 # V.2.0.0 //25 04 2025//                          #
-# V.2.0.2 //30 05 2025//                          #
+# V.2.0.3 //30 05 2025//                          #
+# V.2.1.3 //30 05 2025//                          #
 # Desplegado con streamlit                        #
-# Agentes impulsados con OpenAI                   #
+# Agente impulsado con OpenAI                     #
 # Desarrollador: Sergio Emiliano López Bautista   #
 ###################################################
 

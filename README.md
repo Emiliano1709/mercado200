@@ -14,10 +14,10 @@ Un sólo agente realiza un trabajo general de investigación con un prompt no op
 Los pequeños cambios agregados a esta versión involucran:
     - Instrucciones cortas para introducir al usuario al funcionamiento general de la herramienta
     - La animación de maquina de escribir al despliegue de la vista previa de la información
-    - Validación a la entradad de datos
+    - Validación a la entrada de datos
 *Esta versión no se incluyó en un commit*
 
-= V.2.1.2 =
+= V.2.1.3 =
     Estructuración general del proyecto
 Como proposito genreal, se estructuró el proyecto con dos subcarpetas con el objetivo de que se haga uso de archivos externos para poder leer, modificar y usar prompts optimizados con el uso de prompt engineering y la estructura de prompt propuesta por OpenAI.
 La estructra de subcarpetas y archivos propuesta en esta versión es:
